@@ -99,6 +99,10 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        height: 150px;
+    }
+    .right-2x1:nth-child(1){
+        margin-bottom:0em;
     }
     .right-1x1, .right-1x1 img, .hover-container{
         height: 150px;
