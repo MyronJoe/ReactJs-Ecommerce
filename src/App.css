@@ -7,3 +7,26 @@
 body{
   background-color: rgb(235, 245, 253);
 }
+.phone-section{
+  padding: 1em 2em;
+}
+.header{
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+}
+.header::before{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 80px;
+  background-color: red;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1024px) {
+  .phone-section{
+    padding: 1em;
+  }
+}
