@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../Card'
-import Footer from '../Footer'
+// import Footer from '../Footer'
 import Herosection from '../Herosection'
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
     <>
         <Herosection />
         <Card />
-        <Footer />
+        {/* <Footer /> */}
     </>
   )
 }

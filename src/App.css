@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'trebuchet MS';
+  outline: none;
 }
 body{
   background-color: rgb(235, 245, 253);
 }
 .phone-section{
   padding: 1em 2em;
+  /* position: relative; */
+  /* top: 80px; */
 }
 .header{
   text-align: center;
@@ -28,5 +31,19 @@ body{
 @media screen and (max-width: 1024px) {
   .phone-section{
     padding: 1em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .phone-section{
+    padding: 1em;
+    position: relative;
+    top: 20px;
+  }
+  .header{
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    margin-top: 1em;
   }
 }

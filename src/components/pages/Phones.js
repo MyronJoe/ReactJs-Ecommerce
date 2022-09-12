@@ -11,52 +11,52 @@ function Phones() {
         </div>
         <ul className='card_wrapper phone-section'>
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (5).jpg'
+            price='450'
             path='/phones'
-            title='iphone xr'
+            title='Redmi'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (6).jpg'
+            price='390'
             path='/phones'
-            title='iphone xr'
+            title='Redmi P-series'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (10).jpg'
+            price='3850'
             path='/phones'
-            title='iphone xr'
+            title='Iphone 13 Pro Max'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (11).jpg'
+            price='170'
             path='/phones'
-            title='iphone xr'
+            title='Iphone X'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (14).jpg'
+            price='150'
             path='/phones'
-            title='iphone xr'
+            title='Oscal Xp'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/1 (13).jpg'
+            price='087'
             path='/phones'
-            title='iphone xr'
+            title='Nokia mini'
           />
           <Carditems
-            src='images/work-1.jpg'
+            src='images/3 (2).jpg'
             price='350'
             path='/phones'
-            title='iphone xr'
+            title='Iphone Xr'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
+            src='images/ap133.jpg'
+            price='750'
             path='/phones'
-            title='iphone xr'
+            title='Iphone 13 Series'
           />
         </ul>
       </div>

@@ -12,52 +12,52 @@ function Card() {
             </div>
             <ul className='card_wrapper'>
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/3 (2).jpg'
+                    price = '470'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Iphone 11'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (24).jpg'
+                    price = '62'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Smart Watch'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1.jpg'
+                    price = '764'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Iphone 13'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (21).jpg'
+                    price = '35'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Skemi Quartz'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (7).jpg'
+                    price = '1098'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Lenovo Ideapad'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (10).jpg'
+                    price = '850'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Iphone 13 Pro Max'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (2).jpg'
+                    price = '25'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Earpod'
                 />
                 <Carditems 
-                    src = 'images/work-1.jpg'
-                    price = '350'
+                    src = 'images/1 (4).jpg'
+                    price = '29'
                     path = '/'
-                    title = 'iphone xr'
+                    title = 'Headphone'
                 />
             </ul>
         </div>

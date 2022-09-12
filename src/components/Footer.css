@@ -1,17 +1,25 @@
 .footer-container{
     text-align: center;
-    border-top: 1px solid #242424;
+    border-top: 1px solid #3e3e3e;
     padding: 2em;
     margin-top: 1.5em;
 }
 .footer-link{
     margin: 1.5em;
-    color: black;
+    color: #242424;
+    font-weight: bold;
 }
 .footer-link:hover{
     color: red;
 }
 
+@media screen and (max-width:900px) {
+
+    .footer-container{
+        margin-top: 4em;
+    }
+    
+}
 @media screen and (max-width:600px) {
 
     .footer-link{

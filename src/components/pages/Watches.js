@@ -11,52 +11,52 @@ function Watches() {
         </div>
         <ul className='card_wrapper phone-section'>
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (3).jpg'
+            price='35'
+            path='/watches'
+            title='Nepicz'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (21).jpg'
+            price='11'
+            path='/watches'
+            title='Skemi'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (23).jpg'
+            price='65'
+            path='/watches'
+            title='Smart Watch'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (22).jpg'
+            price='94'
+            path='/watches'
+            title='Nepic Modern'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (24).jpg'
+            price='62'
+            path='/watches'
+            title='Smart Watch'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (22).jpg'
+            price='94'
+            path='/watches'
+            title='Nepic Modern'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/167378_1634906095.jpg'
+            price='53'
+            path='/watches'
+            title='Smart Watch'
           />
           <Carditems
-            src='images/work-1.jpg'
-            price='350'
-            path='/phones'
-            title='iphone xr'
+            src='images/1 (20).jpg'
+            price='45'
+            path='/watches'
+            title='Classic Digital'
           />
         </ul>
       </div>

@@ -14,6 +14,51 @@
 .left-box{
     height: 450px;
     width: 59.3%;
+    position: relative;
+}
+.hero-info{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    color: white;
+}
+.hero-info::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(205, 4, 4);
+    top: -30px;
+    left: 34%;
+    transform: rotate(45deg);
+}
+.hero-info::after{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    top: -38px;
+    left: 20%;
+    
+}
+.info-mid{
+    margin: 30px 0;
+}
+.info-red{
+    color: rgb(205, 4, 4);
+}
+.left-box .btn{
+    background-color: rgb(205, 4, 4);
+    margin-top: 10px;
+    padding: .7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.left-box .btn:hover{
+    background-color: rgb(177, 2, 2);
+    cursor: pointer;
 }
 .left-box img{
     width: 100%;
@@ -91,6 +136,8 @@
     .hero-container{
         padding:0 1em ;
         flex-direction: column;
+        position: relative;
+        top: 70px;
     }
     .right-2x1{
         width: 49%;
@@ -141,4 +188,29 @@
     .right-1x1, .right-1x1 img, .hover-container{
         height: 113px;
     }
+    .hero-info{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        color: white;
+    }
+    .info-mid{
+        margin: 15px 0;
+    }
+    .hero-info h1{
+        font-size: 25px;
+    }
+    .hero-info h2{
+        font-size: 22px;
+    }
+    .hero-info p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hero-info{
+        left: 15px;
+        
+    }
+    
 }

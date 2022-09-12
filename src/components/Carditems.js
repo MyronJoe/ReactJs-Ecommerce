@@ -8,17 +8,20 @@ function Carditems(props) {
   return (
     <>
         <li className='card-items'>
-            <Link to={props.path} className='card'>
+            <div className='card'>
+            
                 <div className='img-section'>
                     <img src={props.src}  alt={props.title} className='card-img'/>
-                    <p className='favourite-icon'><i onClick={addColor} className={click ? 'fa fa-heart fa-heart-active' : 'fa fa-heart'}></i></p>
+                    <p className='favourite-icon'><i onClick={addColor} className={click ? 'fa fa-heart favourite-icon-active' : 'fa fa-heart'}></i></p>
                 </div>
-                <p className='phone-name'>{props.title}</p>
-                <div className='price-section'>
-                    <p className='price'>${props.price}</p>
-                    <p className='plus-icon'><i className='fa fa-plus'></i></p>
-                </div>
-            </Link>
+                <Link to={props.path} >
+                    <p className='phone-name'>{props.title}</p>
+                    <div className='price-section'>
+                        <p className='price'>${props.price}</p>
+                        <p className='plus-icon'><i className='fa fa-plus'></i></p>
+                    </div>
+                </Link>
+            </div>
         </li>
     </>
   )
