@@ -59,6 +59,12 @@ function Card() {
                     path = '/'
                     title = 'Headphone'
                 />
+                <Carditems 
+                    src = 'images/1.jpg'
+                    price = '764'
+                    path = '/'
+                    title = 'Iphone 13'
+                />
             </ul>
         </div>
     </>

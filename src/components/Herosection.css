@@ -36,10 +36,10 @@
     content: '';
     position: absolute;
     height: 20px;
-    width: 60px;
-    background-color: black;
+    width: 30px;
+    background-color: #0A0A0A;
     top: -38px;
-    left: 20%;
+    left: 31%;
     
 }
 .info-mid{
