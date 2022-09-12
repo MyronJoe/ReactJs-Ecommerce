@@ -22,26 +22,7 @@
     left: 30px;
     color: white;
 }
-.hero-info::before{
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: rgb(205, 4, 4);
-    top: -30px;
-    left: 34%;
-    transform: rotate(45deg);
-}
-.hero-info::after{
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 30px;
-    background-color: #0A0A0A;
-    top: -38px;
-    left: 31%;
-    
-}
+
 .info-mid{
     margin: 30px 0;
 }
