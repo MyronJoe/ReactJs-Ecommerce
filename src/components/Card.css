@@ -1,23 +1,28 @@
-.card-section{
+.card-section {
     padding: 2em;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.card-header{
+
+.card-header {
     text-align: center;
     padding-bottom: 1em;
 }
-.card-header p{
+
+.card-header p {
     margin-top: 5px;
 }
-.card_wrapper{
+
+.card_wrapper {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
     margin-top: 1em;
 }
-.card-items{
+
+.card-items {
     width: 100%;
     position: relative;
     list-style: none;
@@ -25,7 +30,8 @@ a{
     padding: 8px;
     border-radius: 6px;
 }
-.img-section{
+
+.img-section {
     width: 100%;
     overflow: hidden;
     border-radius: 6px;
@@ -33,19 +39,22 @@ a{
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #eee;
-    
+
 }
-.card-img{
+
+.card-img {
     width: 195px;
     height: 195px;
     object-fit: cover;
     border-radius: 6px;
     transition: .5s ease-out;
 }
-.card-img:hover{
+
+.card-img:hover {
     transform: scale(1.1);
 }
-.favourite-icon{
+
+.favourite-icon {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -60,15 +69,18 @@ a{
     color: #eee;
     cursor: pointer;
 }
-.favourite-icon-active{
+
+.favourite-icon-active {
     color: red;
 }
-.price-section{
+
+.price-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.fa-plus{
+
+.fa-plus {
     top: 10px;
     right: 10px;
     background-color: red;
@@ -82,44 +94,52 @@ a{
     font-size: 15px;
     cursor: pointer;
 }
-.fa-plus:hover{
+
+.fa-plus:hover {
     background-color: #242424;
 }
-.phone-name{
+
+.phone-name {
     color: black;
     font-size: 19px;
     margin: 15px 0;
 }
-.price{
+
+.price {
     color: black;
     font-size: 19px;
     font-weight: bold;
     margin-top: 4px;
 }
+
 @media screen and (max-width: 1000px) {
-  
-    .card_wrapper{
-        grid-template-columns:repeat(3, 1fr);
+
+    .card_wrapper {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media screen and (max-width: 900px) {
-  
-    .card-section{
+
+    .card-section {
         position: relative;
         top: 70px;
     }
 }
+
 @media screen and (max-width: 780px) {
-    .card_wrapper{
-        grid-template-columns:repeat(2, 1fr);
+    .card_wrapper {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .card-section{
+
+    .card-section {
         position: relative;
         top: 70px;
     }
 }
+
 @media screen and (max-width: 580px) {
-    .card_wrapper{
-        grid-template-columns:1fr;
+    .card_wrapper {
+        grid-template-columns: 1fr;
     }
 }
