@@ -1,27 +1,31 @@
-.hero-container{
+.hero-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 2em;
     font-family: 'Trebuchet MS';
 }
-.right-box{
+
+.right-box {
     height: 450px;
     width: 39%;
     border-radius: 5px;
-    
+
 }
-.left-box{
+
+.left-box {
     height: 450px;
     width: 59.3%;
     position: relative;
 }
-.hero-info{
+
+.hero-info {
     position: absolute;
     bottom: 80px;
     left: 30px;
     color: white;
 }
+
 /* .hero-info::before{
     content: '';
     position: absolute;
@@ -42,13 +46,15 @@
     left: 31%;
     
 } */
-.info-mid{
+.info-mid {
     margin: 30px 0;
 }
-.info-red{
+
+.info-red {
     color: rgb(205, 4, 4);
 }
-.left-box .btn{
+
+.left-box .btn {
     background-color: rgb(205, 4, 4);
     margin-top: 10px;
     padding: .7em 1.5em;
@@ -56,38 +62,45 @@
     border-radius: 4px;
     color: white;
 }
-.left-box .btn:hover{
+
+.left-box .btn:hover {
     background-color: rgb(177, 2, 2);
     cursor: pointer;
 }
-.left-box img{
+
+.left-box img {
     width: 100%;
     height: 450px;
     object-fit: cover;
     border-radius: 5px;
 }
-.right-2x1{
+
+.right-2x1 {
     width: 100%;
     height: 214px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
-.right-2x1:nth-child(1){
-    margin-bottom:22px ;
+
+.right-2x1:nth-child(1) {
+    margin-bottom: 22px;
 }
-.right-1x1{
+
+.right-1x1 {
     width: 48%;
     height: 214px;
     position: relative;
 }
-.right-1x1 img{
+
+.right-1x1 img {
     width: 100%;
     height: 213px;
     border-radius: 5px;
     object-fit: cover;
 }
-.hover-container{
+
+.hover-container {
     width: 100%;
     height: 213px;
     background-color: rgba(0, 0, 0, 0.594);
@@ -100,15 +113,18 @@
     align-items: center;
     transition: .7s ease-out;
 }
-.hover-container P{
+
+.hover-container P {
     color: white;
     font-size: 23px;
 }
-.right-1x1:hover .hover-container{
+
+.right-1x1:hover .hover-container {
     opacity: 0;
     cursor: pointer;
 }
-.fa-angle-right{
+
+.fa-angle-right {
     position: absolute;
     bottom: 15px;
     color: white;
@@ -125,92 +141,114 @@
 
 
 @media screen and (max-width: 900px) {
-    .left-box{
+    .left-box {
         height: 370px;
         width: 100%;
         margin-bottom: 1em;
     }
-    .left-box img{
+
+    .left-box img {
         height: 370px;
     }
-    .hero-container{
-        padding:0 1em ;
+
+    .hero-container {
+        padding: 0 1em;
         flex-direction: column;
         position: relative;
         top: 70px;
     }
-    .right-2x1{
+
+    .right-2x1 {
         width: 49%;
     }
-    .right-box{
+
+    .right-box {
         display: flex;
         width: 100%;
         justify-content: space-between;
         height: 150px;
     }
-    .right-2x1:nth-child(1){
-        margin-bottom:0em;
+
+    .right-2x1:nth-child(1) {
+        margin-bottom: 0em;
     }
-    .right-1x1, .right-1x1 img, .hover-container{
+
+    .right-1x1,
+    .right-1x1 img,
+    .hover-container {
         height: 150px;
     }
-    
+
 }
+
 @media screen and (max-width: 600px) {
-    .hero-container{
-        padding:0 1em ;
+    .hero-container {
+        padding: 0 1em;
         flex-direction: column;
     }
-    .right-box{
+
+    .right-box {
         width: 100%;
         height: 250px;
         flex-direction: column;
     }
-    .left-box{
+
+    .left-box {
         height: 270px;
         width: 100%;
         margin-bottom: 1em;
     }
-    .left-box img{
+
+    .left-box img {
         height: 270px;
     }
-    
-    .right-2x1{
+
+    .right-2x1 {
         width: 100%;
         height: 113px;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
     }
-    .right-2x1:nth-child(1){
-        margin-bottom:1em;
+
+    .right-2x1:nth-child(1) {
+        margin-bottom: 1em;
     }
-    .right-1x1, .right-1x1 img, .hover-container{
+
+    .right-1x1,
+    .right-1x1 img,
+    .hover-container {
         height: 113px;
     }
-    .hero-info{
+
+    .hero-info {
         position: absolute;
         bottom: 30px;
         left: 30px;
         color: white;
     }
-    .info-mid{
+
+    .info-mid {
         margin: 15px 0;
     }
-    .hero-info h1{
+
+    .hero-info h1 {
         font-size: 25px;
     }
-    .hero-info h2{
+
+    .hero-info h2 {
         font-size: 22px;
     }
-    .hero-info p{
+
+    .hero-info p {
         font-size: 13px;
     }
 }
+
 @media screen and (max-width: 500px) {
-    .hero-info{
+    .hero-info {
         left: 15px;
-        
+
     }
-    
+
 }
